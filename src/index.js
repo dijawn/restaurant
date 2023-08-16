@@ -6,7 +6,9 @@ import { menuDisplay } from './menu';
 
 import { contactDisplay } from './contact';
 
-import { homeDisplay } from './home'
+import { homeDisplay } from './home';
+
+import image from '/src/bread.jpg';
 
 const menu = document.querySelector('.menu');
 menu.addEventListener('click', menuDisplay);
